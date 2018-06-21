@@ -3,6 +3,7 @@
 //so we initialize the state with a null value.
 export default (state = null, action) => {
     console.log(action);
+    //this function contains a switch over the action.type where we decide what action to return.
     switch (action.type) {
         //this reducer watches for an action of TYPE select_library and when it sees that it returns the selected library ID.
         case 'select_library':
