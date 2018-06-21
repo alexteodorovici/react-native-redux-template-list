@@ -7,4 +7,7 @@ export default combineReducers({
     //we asign the LibraryReducer to the key called libraries.
     libraries: LibraryReducer,
     selectedLibraryId: SelectionReducer
+
+    //example of a dummy empty reducer that returns an empty array.
+    // myReducer: () => []
 });
