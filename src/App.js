@@ -11,7 +11,7 @@ const App = () => {
         //the store prop holds the application state.
         //the reducers we pass in to create the store are pure functions that take the previous state, modify it and return a new state.
         <Provider store={createStore(reducers)}>
-            {/* this is the GUI interface of the app */}
+            {/* this is the GUI of the app */}
             <View >
                 <Text> React Native Redux Template </Text>
                 <LibraryList />
